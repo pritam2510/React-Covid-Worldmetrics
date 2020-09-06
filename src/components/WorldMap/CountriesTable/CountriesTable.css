@@ -1,0 +1,11 @@
+.CountriesTable{
+    height: 42rem;
+    margin: 25px auto;
+}
+
+.CountriesTable thead {
+    background-color: #212a33;
+    background-image: linear-gradient(147deg, #212a33 0%, #000000 44%);
+    text-transform: uppercase;
+    color: white;
+}

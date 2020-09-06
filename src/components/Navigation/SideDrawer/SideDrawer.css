@@ -1,0 +1,48 @@
+.SideDrawer {
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: #212a33;
+    background-image: linear-gradient(147deg, #212a33 0%, #000000 44%);
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out; 
+    text-align: center;
+}
+
+.SideDrawer hr {
+    background-color: #79d70f;
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+.LogoHeaderSideDrawer {
+    height: 100%;
+    font-variant: small-caps;
+    color:  #79d70f;
+    font-family: 'Alfa Slab One', cursive;    
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 0px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+    .SideDrawer{
+        display: none;
+    }
+}
+
+
+

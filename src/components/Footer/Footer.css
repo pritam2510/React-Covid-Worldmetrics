@@ -1,0 +1,23 @@
+.Footer {
+    background-color: #212a33;
+    background-image: linear-gradient(147deg, #212a33 0%, #000000 44%);
+    color: #79d70f;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 91;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.Footer div{
+    max-width: 100%;
+}
+
+@media (max-width: 500px) {
+    .HideCopyRight {
+        display: none;
+    }
+}

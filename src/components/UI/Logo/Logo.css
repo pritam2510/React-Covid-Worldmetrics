@@ -1,0 +1,28 @@
+.Logo{
+    height: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.Logo img {
+    height: 100%;
+    filter: drop-shadow(2px 2px 1px #6e7c51); 
+}
+
+.LogoHeader {
+    height: 100%;
+    font-variant: small-caps;
+    color: #79d70f;
+    font-family: 'Alfa Slab One', cursive;    
+    font-size: 2.3rem;
+    margin: 0 25px;
+    padding: 0px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+    .LogoHeader {
+        display: none;
+    }
+}

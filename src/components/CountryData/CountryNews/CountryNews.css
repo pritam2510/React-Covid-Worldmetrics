@@ -1,0 +1,19 @@
+.CountryNews {
+    margin: 0;
+    padding: 0
+}
+
+.CountryNewsCards {
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    color: black;
+}
+
+.CountryNewsCards a ,.CountryNewsCards em {
+    color: blanchedalmond;
+    filter: drop-shadow(1px 1px 2px #000);
+}
+
+.CountryNewsCards hr {
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,16 @@
+.WorldMap {
+    margin: 25px 0;
+}
+
+@media (max-width: 499px) {
+    .WorldMapDesktopOnly{
+        display: none;
+    }
+}
+
+
+@media (min-width: 500px) {
+    .WorldMapMobileOnly{
+        display: none;
+    }
+}

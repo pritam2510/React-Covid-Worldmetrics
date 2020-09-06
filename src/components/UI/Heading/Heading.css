@@ -1,0 +1,15 @@
+.Heading {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Heading hr {
+    background-color: #212a33;
+    background-image: linear-gradient(147deg, #212a33 10%, #000000 94%);
+    height: 3px;
+    padding: 0;
+    margin: 0;
+}
